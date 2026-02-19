@@ -1,99 +1,108 @@
 📊 Customer Sales & Behavior Analysis
 📌 Project Overview
 
-This project analyzes customer shopping behavior and sales performance using an end-to-end data analytics pipeline.
-The workflow includes data cleaning with Python, business analysis using SQL, and interactive visualization with Power BI.
+This project performs an end-to-end analysis of customer shopping behavior and sales performance using a complete data analytics workflow.
+It combines Python for data cleaning, SQL for business analysis, and Power BI for visualization to generate actionable business insights.
 
-The goal is to extract meaningful business insights related to:
+The objective of this project is to understand:
 
-Customer behavior
+Customer purchasing behavior
 
-Product categories
+Performance of product categories
 
-Revenue distribution
+Revenue distribution across age groups
 
-Age group trends
-
-Subscription impact
+Impact of subscription status on sales
 
 🛠 Tools & Technologies
 
-Python (Pandas, NumPy) – Data cleaning & preprocessing
+Python (Pandas, NumPy) – Data cleaning and preprocessing
 
-SQL – Business questions and analytical queries
+SQL – Business queries and analytical insights
 
-Power BI – Dashboard & visualization
+Power BI – Interactive dashboard and reporting
 
-CSV Dataset – Customer shopping behavior data
+Dataset – Customer shopping behavior (CSV file)
 
 🔄 Project Workflow
+1️⃣ Data Cleaning (Python)
 
-Data Cleaning (Python)
+Removed duplicate records
 
 Handled missing values
 
-Removed duplicates
+Standardized column names and formats
 
-Standardized column formats
+Prepared clean data for analysis
 
-Business Analysis (SQL)
+2️⃣ Business Analysis (SQL)
 
-Sales by category
+Key business questions answered using SQL:
 
-Revenue by age group
+What are the total sales by category?
 
-Subscription vs non-subscription customers
+Which age group generates the highest revenue?
 
-Gender-based analysis
+How do subscribed vs non-subscribed customers compare?
 
-Shipping type impact
+What is the impact of gender and shipping type on sales?
 
-Dashboard (Power BI)
+3️⃣ Data Visualization (Power BI)
 
-KPIs: Total Customers, Avg Rating, Avg Purchase
+An interactive dashboard was created to display:
 
-Category-wise sales & revenue
+KPIs: Total Customers, Average Rating, Average Purchase Amount
 
-Age group comparison
+Category-wise sales and revenue
 
-Interactive slicers (Gender, Category, Shipping Type, Subscription)
+Revenue and sales by age group
+
+Interactive slicers for:
+
+Gender
+
+Category
+
+Shipping Type
+
+Subscription Status
 
 📈 Key Insights
 
 Clothing category generates the highest revenue
 
-Adult and middle-aged customers contribute the most sales
+Adult and middle-aged customers contribute the most to overall sales
 
-Subscribed customers show higher engagement
+Subscribed customers show higher engagement than non-subscribers
 
-Average rating is around 3.7
+The average customer rating is approximately 3.7
 
-Accessories and footwear show lower revenue contribution
+Accessories and footwear have comparatively lower revenue contribution
 
-📂 Files in Repository
+📂 Repository Structure
 
 customer_shopping_behavior.csv → Raw dataset
 
-Customer_Sales_Analysis.ipynb → Python data cleaning
+Customer_Sales_Analysis.ipynb → Python data cleaning notebook
 
-customer_analysis_SQL.sql → SQL queries
+customer_analysis_SQL.sql → SQL queries for business analysis
 
-customer_shopping_behavior.pbix → Power BI dashboard
+customer_shopping_behavior.pbix → Power BI dashboard file
 
 🎯 Conclusion
 
-This project demonstrates an end-to-end data analytics process from raw data to business insights and visualization.
-It showcases skills in Python, SQL, and Power BI for real-world business analysis.
+This project demonstrates a complete data analytics pipeline — from raw data to business insights and visualization.
+It highlights practical skills in Python, SQL, and Power BI and reflects real-world business problem solving.
 
-📌 Future Improvements
+📌 Future Enhancements
 
 Add time-based trend analysis
 
-Predict customer purchase behavior
+Build predictive models for customer purchase behavior
 
-Add profit and discount analysis
+Include profit margin and discount impact analysis
 
 👤 Author
 
 Vitthal Bulbule
-(Data Analyst / AI & DS Student)
+Data Analyst | AI & Data Science Student
